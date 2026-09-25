@@ -1,0 +1,1297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Acorn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\plants\acorn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Anvil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\anvil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Anvil1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\workbench\anvil1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Blocks\Ash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ash1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\ash\ash1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ash2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\ash\ash2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ash3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\ash\ash3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BlueSlime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slimes\BlueSlime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bubble25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\playeranimations\bubble25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bubble50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\playeranimations\bubble50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bubble75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\playeranimations\bubble75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BubbleFull" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\playeranimations\bubblefull.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cactus1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\cactus\cactus1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chair" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\chair.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chair1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\furniture\chair1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Blocks\Chest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chest1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Treasure\Chest1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chest2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Treasure\Chest2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Copper1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\ores\copper1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CopperAxe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\axe\copperaxe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CopperBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\materials\copperbar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CopperBow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Bows\CopperBow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CopperCoin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\coins\coppercoin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CopperHammer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Hammers\CopperHammer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CopperOre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\copperore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CopperPickaxe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\pickaxe\copper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CopperSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\swords\coppersword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cracks1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\cracks\cracks1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cracks2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\cracks\cracks2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cracks3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\cracks\cracks3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DemonAlter1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\treasure\demonalter1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DemonBow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\DemoniteToolset\DemonBow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DemonEye_Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flying Enemies\DemonEyes\DemonEye-Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DemonEye_Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flying Enemies\DemonEyes\DemonEye-Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DemonEye_LeftDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flying Enemies\DemonEyes\DemonEye-LeftDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DemonEye_LeftUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flying Enemies\DemonEyes\DemonEye-LeftUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DemonEye_Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flying Enemies\DemonEyes\DemonEye-Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DemonEye_RightDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flying Enemies\DemonEyes\DemonEye-RightDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DemonEye_RightUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flying Enemies\DemonEyes\DemonEye-RightUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DemonEye_Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Flying Enemies\DemonEyes\DemonEye-Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Demonite1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Ores\Demonite1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DemoniteBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\DemoniteToolset\DemoniteBar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DemoniteOre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\DemoniteToolset\DemoniteOre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DialogueBox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FriendlyNPCs\DialogueBox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dirt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\dirt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dirt1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\dirt\dirt1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dirt2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\dirt\dirt2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dirt3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\dirt\dirt3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DirtWall1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\walls\dirt\dirtwall1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DirtWall2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\walls\dirt\dirtwall2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DirtWall3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\walls\dirt\dirtwall3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ebonstone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\ebonstone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EbonstoneBlock1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\EbonstoneBlock\EbonstoneBlock1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EbonstoneBlock11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\ebonstoneblock\ebonstoneblock1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EbonstoneBlock2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\EbonstoneBlock\EbonstoneBlock2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EbonstoneBlock21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\ebonstoneblock\ebonstoneblock2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EbonstoneBlock3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\EbonstoneBlock\EbonstoneBlock3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EbonstoneBlock31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\ebonstoneblock\ebonstoneblock3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EskimoLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zombies\EskimoLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EskimoRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zombies\EskimoRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeOfClthulu_Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\bosses\eyeofclthulu\eyeofclthulu-down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeOfClthulu_Down2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bosses\EyeOfClthulu\EyeOfClthulu-Down2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeOfClthulu_DownLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\bosses\eyeofclthulu\eyeofclthulu-downleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeOfClthulu_DownLeft2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bosses\EyeOfClthulu\EyeOfClthulu-DownLeft2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeOfClthulu_DownRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\bosses\eyeofclthulu\eyeofclthulu-downright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeOfClthulu_DownRight2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bosses\EyeOfClthulu\EyeOfClthulu-DownRight2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeOfClthulu_Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\bosses\eyeofclthulu\eyeofclthulu-left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeOfClthulu_Left2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bosses\EyeOfClthulu\EyeOfClthulu-Left2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeOfClthulu_Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\bosses\eyeofclthulu\eyeofclthulu-right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeOfClthulu_Right2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bosses\EyeOfClthulu\EyeOfClthulu-Right2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeOfClthulu_Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\bosses\eyeofclthulu\eyeofclthulu-up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeOfClthulu_Up2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bosses\EyeOfClthulu\EyeOfClthulu-Up2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeOfClthulu_UpLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\bosses\eyeofclthulu\eyeofclthulu-upleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeOfClthulu_UpLeft2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bosses\EyeOfClthulu\EyeOfClthulu-UpLeft2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeOfClthulu_UpRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\bosses\eyeofclthulu\eyeofclthulu-upright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EyeOfClthulu_UpRight2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bosses\EyeOfClthulu\EyeOfClthulu-UpRight2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FieryGreatSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\HellstoneToolset\FieryGreatSword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlamingArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Arrows\FlamingArrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FlyingTest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tests\FlyingTest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Furnace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Blocks\Furnace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Furnace1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\WorkBench\Furnace1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\materials\gel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gold1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\ores\gold1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GoldAxe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\axe\goldaxe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GoldBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\materials\goldbar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GoldBow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Bows\GoldBow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GoldCoin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\coins\goldcoin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GoldHammer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Hammers\GoldHammer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GoldOre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\goldore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GoldPickaxe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\pickaxe\gold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GoldSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\swords\goldsword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\grass9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GreenSlime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Slimes\GreenSlime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GuideLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FriendlyNPCs\GuideLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GuideRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FriendlyNPCs\GuideRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HealButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FriendlyNPCs\HealButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\playeranimations\heart25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\playeranimations\heart50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Heart75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\playeranimations\heart75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartFull" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\playeranimations\heartfull.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HellfireArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\HellstoneToolset\HellfireArrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HellForge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\HellstoneToolset\HellForge.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HellForge1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\WorkBench\HellForge1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hellstone1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Ores\Hellstone1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HellstoneBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\materials\hellstonebar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HellstoneOre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\hellstoneore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Help_Button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FriendlyNPCs\Help Button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hotbar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\inventory\hotbar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hotbar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\inventory\hotbar2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hotbar3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\inventory\hotbar3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hotbar4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\inventory\hotbar4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\ice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ice1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Ice\Ice1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ice2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Ice\Ice2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ice3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Ice\Ice3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IceSlime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\slimes\iceslime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iron1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\ores\iron1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IronAxe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\axe\ironaxe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IronBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\materials\ironbar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IronBow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Bows\IronBow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IronHammer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Hammers\IronHammer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IronOre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\ironore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IronPickaxe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\pickaxe\iron.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="IronSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\swords\ironsword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleGrass9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\JungleGrass9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JungleSlime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\slimes\jungleslime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Leaf1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\tree\leaf1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Leaf2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\tree\leaf2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Leaf3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\tree\leaf3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lens" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\materials\lens.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LifeCrystal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\consumables\lifecrystal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LifeCrystal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\treasure\lifecrystal1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LightsBane" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\DemoniteToolset\LightsBane.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menu_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menu Background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MerchantLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\friendlynpcs\merchantleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MerchantRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\friendlynpcs\merchantright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MoltenAxe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\HellstoneToolset\MoltenAxe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MoltenBow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\HellstoneToolset\MoltenBow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MoltenHammer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\HellstoneToolset\MoltenHammer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MoltenPickaxe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\HellstoneToolset\MoltenPickaxe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mud" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Blocks\Mud.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mud1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Mud\Mud1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mud2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Mud\Mud2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mud3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Mud\Mud3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MudWall1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\walls\mud\mudwall1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MummyLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zombies\MummyLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MummyRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zombies\MummyRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MushroomGrass9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Grass\MushroomGrass9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NightmarePickaxe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\DemoniteToolset\NightmarePickaxe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NurseLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\friendlynpcs\nurseleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NurseRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\friendlynpcs\nurseright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlatinumCoin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\coins\platinumcoin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlayerLeftIdle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlayerAnimations\PlayerLeftIdle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PlayerRightIdle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PlayerAnimations\PlayerRightIdle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pot1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Treasure\Pot1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleGrass9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\grass\purplegrass9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PurpleSlime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\slimes\purpleslime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sand" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\sand.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sand1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Sand\Sand1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sand2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Sand\Sand2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sand3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Sand\Sand3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SandSlime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\slimes\sandslime.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sandstone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Blocks\Sandstone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SandStone1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\SandStone\SandStone1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SandWall1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\walls\sand\sandwall1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sapling1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\sapling\sapling1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ShopButton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FriendlyNPCs\ShopButton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Silver1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\ores\silver1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SilverAxe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\axe\silveraxe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SilverBar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\materials\silverbar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SilverBow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Bows\SilverBow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SilverCoin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\coins\silvercoin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SIlverHammer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Hammers\SIlverHammer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SilverOre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\silverore.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SilverPickaxe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\pickaxe\silver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SilverSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\swords\silversword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zombies\SkeletonLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SkeletonRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zombies\SkeletonRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\snow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Snow\Snow1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snow2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Snow\Snow2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snow3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blocks\Snow\Snow3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SnowWall1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Walls\Snow\SnowWall1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SnowWall2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Walls\Snow\SnowWall2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SnowWall3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Walls\Snow\SnowWall3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\stone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stone1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\stone\stone1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stone2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\stone\stone2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stone3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\stone\stone3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SuspiciousLookingEye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\BossSpawners\SuspiciousLookingEye.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Table" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\table.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Table1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\furniture\table1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TheBreaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\DemoniteToolset\TheBreaker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Torch" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\torch.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Torch1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\torches\torch1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tree1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\tree\tree1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UnholyArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Arrows\UnholyArrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarAxeOfNight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\DemoniteToolset\WarAxeOfNight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\wood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wood1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\wood\wood1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WoodenArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Arrows\WoodenArrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WoodenBow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Bows\WoodenBow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WoodenHammer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Hammers\WoodenHammer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WoodenPlatform" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\woodenplatform.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WoodenPlatform1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\platforms\woodenplatform1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WoodSword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\swords\woodsword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WoodWall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Items\Walls\WoodWall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WoodWall1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\walls\wood\woodwall1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WorkBench" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\items\blocks\workbench.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WorkBench1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\blocks\workbench\workbench1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zombies\ZombieLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ZombieRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Zombies\ZombieRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
